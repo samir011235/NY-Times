@@ -1,0 +1,43 @@
+header {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.left {
+float: left;
+}
+
+.right {
+float: right;
+height: 32px;
+width: 119px;
+border: 1px solid #326891;
+background-color: #6288a5;
+color: white;
+font-weight: 700;
+font-size: 11px;
+border-radius: 4px;
+margin: 5px;
+cursor: pointer;
+text-transform: uppercase;
+
+}
+
+img.left {
+    height: 30px;
+    width: 30px;
+    margin: 8px;
+}
+p.left {
+    text-transform: uppercase;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.middle {
+    height: 28px;
+    width: 195px;
+    margin: 5px 0 0 300px;
+    cursor: pointer;
+}
