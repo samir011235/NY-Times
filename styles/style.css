@@ -41,3 +41,119 @@ p.left {
     margin: 5px 0 0 300px;
     cursor: pointer;
 }
+
+body{
+    margin: auto;
+    justify-content: center;
+
+}
+
+#first-article{
+    
+}
+
+.section1{
+    margin-left: 200px;
+}
+
+#section-title{
+    display: block;
+    color: #121212;
+    position: relative;
+    width: 945px;
+    height: 36px;
+    margin: 50px auto 20px auto;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 28px;
+    line-height: 10px;
+    font-width: 70%;
+}
+
+#headline{
+    
+    
+}
+
+#alan-picture{
+    /*vertical-align: top;*/
+    cursor: pointer;
+    margin: 15px auto 1rem auto;
+    width: 945px;
+    display: block;
+}
+
+.image-caption{
+    display: block;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin: auto;
+    width: 945px;
+    height: 28px;
+    text-align: left;
+}
+
+ #image-caption1{
+    font-size: 0.9375rem;
+    color: #666;
+}
+
+ #image-caption2{
+    font-size: 0.8125rem;
+    display: inline-block;
+    color: #888;
+    margin-left: 5px;
+ }
+
+h5{
+    width: 300px;
+    padding-top: 65px;
+    margin-bottom: 5px;
+}
+
+#date{
+float: left;
+font-weight: 500;
+color: #333;
+margin-bottom: 1rem;
+font-size: 1rem;
+line-height: 1rem;
+margin-top: 16px;
+}
+
+.social-media{
+    float: right;
+    color: black;
+    height: 35px;
+    width: 35px;
+
+}
+
+.section2{
+    width: 600px;
+    height: 372px;
+    margin: auto;
+    font-size: 1.25rem;
+}
+
+.css-exrw3m {
+
+}
+
+.first-part{
+    width: 600px
+    height: 372px;
+    color: #333;
+}
+.second-part{
+    width: 600px
+    height: 372px;
+    color: #333;
+}
+
+.article-details{
+    float: left;
+    font-size: 16px;
+ }
