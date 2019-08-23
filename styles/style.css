@@ -287,3 +287,88 @@ a.links {
     height: 30px;
     margin-top: 5px;
 }
+
+#article-footer {
+    
+}
+
+#leftside {
+    width: 70%;
+    float: left;
+    margin: 30px 0;
+}
+
+#rightside {
+    width: 30%;
+    float: right;
+    margin: 30px 0;
+}
+
+#first-row {
+    display: flow-root;
+}
+
+.row-block {
+    float: left;
+    height: 230px;
+    width: 264px;
+    margin: 0 5px;
+}  
+
+.row-block > img {
+    height: 174px;
+    width: 262px;
+}
+.row-block > p {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    text-align: right;
+    color: rgb(153, 153, 153);
+}
+
+.row-block h2 {
+    font-size: 15px;
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+}
+
+.row-block small {
+    display: block;
+    color: rgb(153, 153, 153);
+    margin-top: -6px;
+}
+
+.UBS {
+    font-family: 'Source Sans Pro',sans-serif;
+    background-color: #F6F6F6;
+}
+
+#USB-content {
+    font-size: 13px;
+    padding: 8px 5px;
+    font-weight: bolder;
+    color: #121212;
+    background-color:  #F6F6F6;
+    margin: 0;
+}
+#UBS-logo {
+    height: 30px;
+    width: 264px;
+    margin-top: 6px;
+    position: relative;
+    top: -8px;
+}
+
+.row-block > small {
+    display: block;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    padding: 5px 0 5px 0; 
+
+}
+#second-row {
+    clear: both;
+    margin: 80px 0;
+}
