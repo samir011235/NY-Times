@@ -43,3 +43,199 @@ p.left {
     margin: 5px 0 0 300px;
     cursor: pointer;
 }
+
+body{
+    margin: auto;
+    justify-content: center;
+
+}
+
+.section1{
+    width: 945px;
+    margin: auto;
+}
+
+#section-title{
+    display: block;
+    color: #121212;
+    position: relative;
+    width: 945px;
+    height: 36px;
+    margin: 50px auto 20px auto;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    font-size: 28px;
+    line-height: 10px;
+    font-width: 70%;
+}
+
+
+#alan-picture{
+    /*vertical-align: top;*/
+    cursor: pointer;
+    margin: 15px auto 1rem auto;
+    width: 945px;
+    display: block;
+}
+
+.image-caption{
+    display: block;
+    color: #666;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin: auto;
+    width: 945px;
+    height: 28px;
+    text-align: left;
+}
+
+ #image-caption1 {
+    font-size: 0.9375rem;
+    color: #666;
+}
+
+ #image-caption2 {
+    font-size: 0.8125rem;
+    display: inline-block;
+    color: #888;
+    margin-left: 5px;
+ }
+
+h5 {
+    width: 300px;
+    padding-top: 65px;
+    margin-bottom: 5px;
+}
+
+#date {
+float: left;
+font-weight: 500;
+color: #333;
+margin-bottom: 1rem;
+font-size: 1rem;
+line-height: 1rem;
+margin-top: 16px;
+}
+
+.social-media {
+    float: right;
+    color: black;
+    height: 30px;
+    width: 30px;
+
+}
+
+.sections {
+    width: 600px;
+    margin: auto;
+    font-size: 1.35rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+.css-exrw3m {
+
+}
+
+.first-part {
+    width: 600px;
+    height: 372px;
+    color: #333;
+}
+.second-part {
+    width: 600px;
+    height: 372px;
+    color: #333;
+}
+
+.article-details{
+    float: left;
+   
+ }
+
+ #poster {
+    width: 980px;
+    margin: 50px auto 40px auto;
+    color: #000000;
+    display: flow-root;
+ }
+
+ #poster-header {
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+ }
+
+ #poster-header > h4 {
+    font-weight: 700;
+    font-size: 1.1em;
+    margin: auto 0 1px 0;
+    padding: auto 0 1px 0;
+ }
+
+ #poster-header > p {
+     font-size: 0.875em;
+     font-weight: 400;
+     color: #666;
+     margin: 4px 0;
+    padding: 4px 0;
+}
+
+ .poster-subsection {
+    display: flow-root; 
+ }
+
+ .poster-article {
+    float: left;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+     width: 230px;
+     margin: 7px;
+     color: #000000;
+     font-style: normal;
+ }
+
+ .poster-article > img {
+     display: block;
+     width: 228px;
+     height: 120px;
+ }
+
+.part2 {
+    padding-bottom: 30px;
+}
+
+#poster-footer {
+    clear: both;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+#poster-footer p::before {
+    content: 'By LARRY ';
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+a#celebration {
+    color: #326891;
+}
+
+#youtube-video {
+    padding: 20px 0;
+    color: #666;
+}
+
+#youtube-video > p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    margin: 2px 0;
+    padding: 2px 0;
+}
+
+#youtube-video > span {
+    display: block;
+    font-size: 10px;
+    
+}
