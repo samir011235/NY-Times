@@ -295,13 +295,17 @@ a.links {
 #leftside {
     width: 70%;
     float: left;
-    margin: 30px 0;
+    margin: 30px 0 30px 60px;
+    border-top: 1px solid black;
+    width: 822px;
 }
 
 #rightside {
     width: 30%;
     float: right;
-    margin: 30px 0;
+    margin: 30px 40px 30px 10px;
+    border-top: 1px solid black;
+   
 }
 
 #first-row {
@@ -371,4 +375,36 @@ a.links {
 #second-row {
     clear: both;
     margin: 80px 0;
+}
+
+#third-row {
+    clear: both;
+    position: relative;
+    top: 50px;
+    border-top: 1px solid black;
+    width: 822px;
+}
+
+#third-row > p {
+    font size: 17px;
+}
+
+.aside-box {
+    border-top: 1px solid lightgray;
+    width: 315px;
+    height: 66px;
+    padding: 5px;
+    position: relative;
+    top: 3px;
+
+}
+
+.aside-links {
+    font-weight: 500;
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1875rem;
+    text-decoration-color: black;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
 }
