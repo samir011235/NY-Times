@@ -1,3 +1,4 @@
+
 header {
     border-bottom: 1px solid lightgray;
     padding-bottom: 5px;
@@ -37,11 +38,14 @@ p.left {
     padding-left: 5px;
 }
 
-.middle {
+.logo {
     height: 28px;
     width: 195px;
-    margin: 5px 0 0 300px;
     cursor: pointer;
+}
+
+.middle {
+    margin: 5px 0 0 300px;
 }
 
 body{
@@ -50,12 +54,12 @@ body{
 
 }
 
-.section1{
+.section1 {
     width: 945px;
     margin: auto;
 }
 
-#section-title{
+#section-title {
     display: block;
     color: #121212;
     position: relative;
@@ -72,7 +76,7 @@ body{
 }
 
 
-#alan-picture{
+#alan-picture {
     /*vertical-align: top;*/
     cursor: pointer;
     margin: 15px auto 1rem auto;
@@ -80,7 +84,7 @@ body{
     display: block;
 }
 
-.image-caption{
+.image-caption {
     display: block;
     color: #666;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
@@ -131,10 +135,6 @@ margin-top: 16px;
     margin: auto;
     font-size: 1.35rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
-}
-
-.css-exrw3m {
-
 }
 
 .first-part {
@@ -295,7 +295,7 @@ a.links {
 #leftside {
     width: 70%;
     float: left;
-    margin: 30px 0 30px 60px;
+    margin: 30px 0 30px 30px;
     border-top: 1px solid black;
     width: 822px;
 }
@@ -303,7 +303,7 @@ a.links {
 #rightside {
     width: 30%;
     float: right;
-    margin: 30px 40px 30px 10px;
+    margin: 30px 30px 60px 10px;
     border-top: 1px solid black;
    
 }
@@ -407,4 +407,44 @@ a.links {
     font-size: 1.1875rem;
     text-decoration-color: black;
     font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+footer {
+    width: 1400px;
+    margin: 20px 20px 10px 30px;
+    display: flow-root;
+}
+
+#footer-header {
+    width: 1200px;
+    height: 44px;
+    display: flow-root;
+    margin: 80px 0 0 0;
+    border-top: 2px solid lightgray;
+}
+.footer-logoleft {
+    display: block;
+    float: left;
+    margin-top: 6px;
+}
+.footer-rightlink {
+    float: right;
+    margin-top: 18px;
+    font-size: 11px;
+    color: #6288A5;
+}
+#footer-links {
+    width: 1300px;
+    display: flow-root;
+}
+.column {
+    float: left;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#last-column {
+    padding-left: 40px;  
+    border-left: 1px solid lightgray;
 }
