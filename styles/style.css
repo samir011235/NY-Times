@@ -2,6 +2,7 @@
 header {
     border-bottom: 1px solid lightgray;
     padding-bottom: 5px;
+    overflow-x: hidden;
 }
 
 .left {
@@ -285,9 +286,11 @@ a.links {
 
 #article-footer {
     margin: auto;
-    display: flow-root;
+    display: block;
     padding-left: 30px;
     width: 1500px;
+    justify-content: center;
+    padding-bottom: 950px;
 }
 
 #leftside {
@@ -405,7 +408,7 @@ a.links {
 footer {
     width: 1400px;
     margin: 20px 20px 10px 50px;
-    display: flow-root;
+    display: block;
     margin: auto;
     justify-content: center;
     padding-left: 30px;
@@ -414,7 +417,7 @@ footer {
 #footer-header {
     width: 1200px;
     height: 44px;
-    display: flow-root;
+    display: block;
     margin: 80px 0 0 0;
     border-top: 2px solid lightgray;
 
