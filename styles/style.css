@@ -283,12 +283,19 @@ a.links {
     margin-top: 5px;
 }
 
+#article-footer {
+    margin: auto;
+    display: flow-root;
+    padding-left: 30px;
+    width: 1500px;
+}
+
 #leftside {
     width: 70%;
     float: left;
-    margin: 30px 0 30px 30px;
+    margin: 30px 40px 30px 10px;
     border-top: 1px solid black;
-    width: 822px;
+    width: 822px; 
 }
 
 #rightside {
@@ -296,7 +303,7 @@ a.links {
     float: right;
     margin: 30px 30px 60px 10px;
     border-top: 1px solid black;
-   
+    width: 400px;
 }
 
 #first-row {
@@ -340,7 +347,7 @@ a.links {
 }
 
 #USB-content {
-    font-size: 13px;
+    font-size: 12px;
     padding: 8px 5px;
     font-weight: bolder;
     color: #121212;
@@ -348,11 +355,11 @@ a.links {
     margin: 0;
 }
 #UBS-logo {
-    height: 30px;
-    width: 264px;
+    height: 30px;;
+    width: 264px   
     margin-top: 6px;
     position: relative;
-    top: -8px;
+    top: -3px;
 }
 
 .row-block > small {
@@ -397,10 +404,11 @@ a.links {
 
 footer {
     width: 1400px;
-    margin: 20px 20px 10px 30px;
+    margin: 20px 20px 10px 50px;
     display: flow-root;
     margin: auto;
     justify-content: center;
+    padding-left: 30px;
 }
 
 #footer-header {
